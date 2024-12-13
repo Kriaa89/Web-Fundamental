@@ -1,0 +1,32 @@
+.first_header{
+text-align: left;
+background-color: black;
+height: 100px;
+}
+h1{
+color: white;
+text-align: left;
+padding-top: 20px;
+color: rgb(127, 240, 240);
+padding-left: 17px;
+}
+span{
+color: white;
+}
+.second_header{
+    background-color: rgb(107, 51, 160);
+    height: 100px;
+    text-align: center;
+}
+h2{
+    padding-top: 20px;
+    color: white;
+}
+.third_header{
+    background-color: lightblue;
+    height: 100px;
+    text-align: right;
+}
+h3{
+    
+}
