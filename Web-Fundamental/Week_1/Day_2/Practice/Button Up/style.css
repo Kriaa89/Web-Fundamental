@@ -1,0 +1,23 @@
+.search_button{
+    background-color: white;
+    color: #00AAA5;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    border: 2px solid #00AAA5;
+}
+.plus_button{
+    border-radius: 50%;
+    background-color: #00AAA5;
+    color: white;
+    height: 40px;
+    width: 40px;
+    border: #00AAA5;
+}
+.create_account{
+    background-color: #1E6ACB;
+    color: white;
+    width: 150px;
+    height: 40px;
+    box-shadow: 20px 7px 7px;
+}
