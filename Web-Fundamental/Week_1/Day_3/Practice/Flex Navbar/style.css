@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    display: flex;
+    background-color: #333;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 10px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.nav-title{
+    padding: 10px;
+}
+.btn{
+    background-color: #20b2c8;
+    color: white;
+    border-radius: 3px;
+    box-shadow: black 4px 4px 4px;
+    height: 30px;
+    width: 100px;
+}
