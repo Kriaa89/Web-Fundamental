@@ -11,31 +11,28 @@
 }
 .side-nav {
     height: 300px;
-    width: 190px;
+    width: 200px;
     background-color: blue;
-    display: inline-block;
-    vertical-align: top;
-    margin: 10px;
 }
 .main {
     height: 400px;
     width: 700px;
     background-color: red;
-    display: inline-block;
-    vertical-align: top;
-    padding: 10px;
-
 }
 .sub-content {
     height: 200px;
     width: 210px;
     background-color: yellow;
-    display: inline-block;
-    margin-right: 10px;
 }
 #advertisement {
     height: 120px;
     width: 660px;
     background-color: purple;
-    margin-top: 18px;
+    margin: 11px;
 }
+.row {
+    display: flex;
+    margin: 14px;
+    gap: 10px;
+}
+
