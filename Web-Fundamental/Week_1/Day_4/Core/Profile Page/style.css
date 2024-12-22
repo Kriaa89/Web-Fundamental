@@ -37,9 +37,9 @@ body{
 }
 
 .main{
+    display: flex;
     width: 1000px;
     height: 900px;
-    border: 2px solid black;
     margin-top: 50px;
     gap: 30px;
 }
@@ -85,4 +85,75 @@ body{
 img{
     width: 40px;
     height: 40px
+}
+.education{
+    border: 3px solid #ccc;
+    margin-top: 30px;
+    height: 200px;
+    width: 570px;
+}
+.education h3{
+    background-color: #333;
+    color: white;
+    padding: 16px;
+    border-radius: 4px 6px;
+}
+.education-content{
+    padding: 30px;
+}
+.connection-card{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 3px solid #ccc;
+}
+.connection-card h3{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px 8px 0 0 ;
+}
+.connection-card h3 span{
+    background-color: #666666;
+    border-radius: 50%;
+    padding: 2px 8px;
+    margin-right: 8px;
+}
+.connection-list{
+    padding: 20px;
+}
+.user-info1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 10px;
+}
+.user-info2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 10px;
+}
+.user-info1 img{
+    width: 30px;
+    height: 30px;
+}
+.user-info2 img{
+    width: 30px;
+    height: 30px;
+}
+.user-icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.connection-info{
+    display: flex;
+    margin: 28px;
+    align-items: center;
+    gap: 10px;
 }
