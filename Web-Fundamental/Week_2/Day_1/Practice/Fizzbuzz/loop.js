@@ -18,3 +18,4 @@ function fizzBuzz(){
         }
     }
 }
+fizzBuzz()
