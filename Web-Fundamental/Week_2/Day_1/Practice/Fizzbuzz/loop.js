@@ -18,4 +18,4 @@ function fizzBuzz(){
         }
     }
 }
-fizzBuzz()
+fizzBuzz() // invoke the function to see the result 
