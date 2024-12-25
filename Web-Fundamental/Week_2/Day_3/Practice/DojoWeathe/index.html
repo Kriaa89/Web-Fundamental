@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="logo">
+            <strong>DojoWeather</strong>
+        </div>
+        <div class="nav-links">
+            <a href="#" onclick="alert()">Burbank</a>
+            <a href="#" onclick="alert()">Chicago</a>
+            <a href="#"onclick="alert()">Dallas</a>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="header">
+            <h1>San Jose</h1>
+            <div>
+                show temperature in
+                <select name="city" id="city">
+                    <option value="°c">°c</option>
+                    <option value="°F">°F</option>
+                </select>
+            </div>
+        </div>   
+    </div>
+    <div class="forecast">
+        <div class="today">
+            <h2>today</h2>
+            <img src="DojoWeathe/assets/assets/some_rain.png" alt="some_rain">
+            <p>some rain</p>
+                <div class="temperature">
+                    <span class="span1">24°</span>
+                    <span class="span2">18°</span>
+                </div>
+        </div>
+        <div class="today">
+            <h2>Tomrrow</h2>
+            <img src="DojoWeathe/assets/assets/some_sun.png" alt="some_rain">
+            <p>some rain</p>
+                <div class="temperature">
+                    <span class="span1">27°</span>
+                    <span class="span2">19°</span>
+                </div>
+        </div>
+        <div class="today">
+            <h2>Friday</h2>
+            <img src="DojoWeathe/assets/assets/some_clouds.png" alt="some_rain">
+            <p>some rain</p>
+                <div class="temperature">
+                    <span class="span1">21°</span>
+                    <span class="span2">16°</span>
+                </div>
+        </div>
+        <div class="today">
+            <h2>Saturday</h2>
+            <img src="DojoWeathe/assets/assets/some_sun.png" alt="some_rain">
+            <p>some rain</p>
+                <div class="temperature">
+                    <span class="span1">26°</span>
+                    <span class="span2">21°</span>
+                </div>
+        </div>
+    </div>
+    <div class="accept-cookies" id="cookies-policy">
+        <div class="cookies-content">
+            <img src="DojoWeathe/assets/assets/cookie.png" alt="cookie" class="cookie-icon">
+            <p class="cookies-text">
+                we use cookies (sadly not the edible ones)to personalize 
+                <br>content and ads to provide social media feature and to 
+                analyze our traffic <a href="#">.....</a>
+            </p>
+            <div class="btn-cookies">
+                <button class="btn-cookies" onclick="dele('#cookies-policy')">I accept</button>
+            </div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
