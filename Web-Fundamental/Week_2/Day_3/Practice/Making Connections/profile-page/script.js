@@ -17,7 +17,7 @@ function accept(id){
     requestCount.innerHTML ++;
 }
 
-
+// function to decrease by 1
 function dlete(id){
     var element = document.querySelector(id);
     element.remove();
