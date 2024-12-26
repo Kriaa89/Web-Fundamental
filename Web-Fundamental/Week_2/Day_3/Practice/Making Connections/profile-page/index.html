@@ -35,11 +35,11 @@
                     <img src="images/jane-m.jpg" alt="jane" class="avatar-m">
                 </div>
                 <div class="card-body">
-                    <h1>Jane Doe</h1>
+                    <h1 id="username">Jane Doe</h1>
                     <h3><img src="icons/map-marker.png" alt="pin" class="icon-s"> Seattle</h3>
                     <p>Developer | Engineer | Problem Solver<br>
                     Master of shadows and the Internet!</p>
-                    <p><a href="#"><img src="icons/gear.png" alt="gear" class="icon-s"> edit profile</a></p>
+                    <p><a href="#"><img src="icons/gear.png" alt="gear" class="icon-s" onclick= "changeUserName('#username')"> edit profile </a></p>
                 </div>
             </div>
 
@@ -73,18 +73,18 @@
                             Todd E
                         </span>
                         <span>
-                            <img src="icons/accept-circle.png" alt="accept" class="icon" onclick="accept(this)">
-                            <img src="icons/close-circle.png" alt="close" class="icon"  onclick="reject(this)">
+                            <img src="icons/accept-circle.png" alt="accept" class="icon" onclick="accept('#this2')">
+                            <img src="icons/close-circle.png" alt="close" class="icon"  onclick="dlete('#this1')">
                         </span>
                     </li>
-                    <li class="card-list-item">
+                    <li class="card-list-item" id="this2">
                         <span>
                             <img src="images/phil-s.jpg" alt="phil" class="avatar-s">
                             Phil E
                         </span>
                         <span>
-                            <img src="icons/accept-circle.png" alt="accept" class="icon">
-                            <img src="icons/close-circle.png" alt="close" class="icon">
+                            <img src="icons/accept-circle.png" alt="accept" class="icon" onclick="accept('#this2')">
+                            <img src="icons/close-circle.png" alt="close" class="icon" onclick="dlete('#this2')">
                         </span>
                     </li>
                 </ul>
